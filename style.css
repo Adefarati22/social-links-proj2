@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white:  hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --ff-inter: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: var(--ff-inter);
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    /* background-color: var(--dark-grey); */
+    background-color: var(--off-black);
+
+}
+
+main{
+    display: flex;
+    /* border: 1px solid blue; */
+    max-width: 960px;
+    background-color: var(--dark-grey);
+    border-radius: 15px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+img{
+    border-radius: 100%;
+    margin-top: 45px;
+    width: 6rem;
+    margin-bottom: 24px;
+
+}
+
+#Jessica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h1{
+font-weight: 400;
+color: var(--white);
+font-size: 1.6rem;
+}
+
+h4{
+    color: var(--green);
+    /* font-weight: 600; */
+}
+
+p{
+    color: var(--white);
+    margin-top: 4px;
+    margin-bottom: 8px;
+    
+}
+
+#bb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+
+
+button{
+    background-color: var(--grey);
+    color: var(--white);
+    border-radius: 7px;
+    border-style: none;
+    width: 299px;
+    height: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--green);
+    color: var(--off-black);
+}
+
+
+@media(max-width:426px){
+    main{
+    margin: 240px 120px;
+    padding: 30px 100px ;
+    }
+
+}
+
+@media screen {
+    
+}
